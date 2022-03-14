@@ -1,7 +1,9 @@
 # Velo
+
 Develop your site as a team using any IDE and Dev Editor.
 
-##Before Getting Started
+## Before Getting Started
+
 Make sure you successfully connected your site to Github in the online editor. 
 After connecting to GitHub, you’ll only be able to edit code in the external IDE. Code in the Online Editor will be in read-only mode.
 The online Editor is tied to origin/main branch. The code is automatically updated upon every push to origin/main
@@ -33,6 +35,7 @@ Now you can start developing in your IDE.
 The repository contains the site's code and a reference to an Editor X revision in the velo.config.json file. Editor X revision represents the state of your site except the code: design, schemas and applications. While designing in Editor X, both Online & Dev, revisions are periodically created. In the Dev Editor you also have a ‘Sync Changes’ button, which creates new revisions and updates it in your local code.
 
 ## Dev Editor 
+
 To make editor changes while editing code locally open the Dev Editor by running 
 
   ```js
@@ -46,10 +49,8 @@ After making the needed changes (design/schema/ids) in the Dev Editor, you have 
 
 Hot reload - While ‘velo dev’ command is running, each time you edit code in your preferred IDE, the Dev Editor automatically updates with these changes.
 
-
-
-
 ## Preview Your Site 
+
 When developing locally, you have several options to preview and test your local changes:
 Live preview - Open a temporary version of your application or site in a production environment, with a hot reload mechanism, which automatically syncs any code change done in your local IDE.
 
@@ -77,10 +78,11 @@ Run ‘velo publish’ CLI command to publish the latest commit in origin master
 velo publish
   ``` 
 
-##Invite Collaborators 
+## Invite Collaborators 
+
 To allow other site contributors access your github repository and edit code, you have to invite them as collaborators on your github repository via Github, learn more https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository
 
-###Learn More
+## Learn More
 
 See our [Help Center Documentation]() to learn more.
 
