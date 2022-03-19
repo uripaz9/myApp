@@ -70,7 +70,7 @@ When developing locally, you have several options to preview and test your local
 __Live preview__ - Open a temporary version of your application or site in a production environment, with a hot reload mechanism, which automatically syncs any code change done in your local IDE.
 
   ```js
-velo deploy-preview
+velo live-preview
   ``` 
 __Deploy preview__ - Create a new shareable version of your application or site in a production environment. This version will be based on your local code and the Editor X Revision stated in velo.config.json file.
 
