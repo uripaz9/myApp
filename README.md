@@ -1,7 +1,3 @@
-# Velo Local
-
-Develop your site as a team using any IDE and Dev Editor.
-
 ## Table of contents
 
 * [Before Getting Started]()
