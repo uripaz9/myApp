@@ -1,6 +1,8 @@
-# Velo
+# Velo Local
 
 Develop your site as a team using any IDE and Dev Editor.
+
+## Table of contents
 
 * [Before Getting Started]()
 * [Setup]()
@@ -14,7 +16,8 @@ Develop your site as a team using any IDE and Dev Editor.
   * [<code>velo live-preview</code>]()
   * [<code>velo deploy-preview</code>]()
   * [<code>velo publish</code>]()
-* [Invite Collaborators]()
+* [Work with your team]()
+* [Community]()
 * [Learn More]()
 
 ## Before Getting Started
@@ -93,13 +96,25 @@ Run ‘velo publish’ CLI command to publish the latest commit in origin master
 velo publish
   ``` 
 
-## Invite Collaborators 
+## Work with your team
 
-To allow other site contributors access your github repository and edit code, you have to invite them as collaborators on your github repository via Github. [Learn more]()
+To allow teammates to access your GitHub repository, edit code, and make changes to your Editor X site, you’ll need to both:
+1. Add them as contributors in the Editor as Admin role
+1. Invite them as collaborators on your repository in GitHub.
+
+[Learn more about working with your team]()
+
+## Community
+
+[Discord]()
+
+[Twitter]()
 
 ## Learn More
 
-See our [Help Center Documentation]() to learn more.
+See our [Help Center Documentation]().
+
+Watch a [Velo Local video tutorial]().
 
 
 
