@@ -110,7 +110,7 @@ To allow teammates to access your GitHub repository, edit code, and make changes
 
 See our [Help Center Documentation]().
 
-Watch a [video tutorials]().
+Watch [video tutorials]().
 
 
 
