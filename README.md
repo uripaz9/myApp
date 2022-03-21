@@ -29,13 +29,13 @@ To set up your local environment and start coding locally, run the following CLI
 1. Clone your site 
 
   ```js
-git clone <your-repository-url>
+git clone https://github.com/shail/wixLife.git
   ```
 
 2. Navigate to your project directory
 
 ```js
-cd <site-directory>
+cd wixLife
 ```
 
 3. Run the init command to add the necessary dependencies, including node packages, Velo CLI and the types folder necessary to support Velo auto-complete and error indications. Note that running this command may prompt you to log in to Wix. 
@@ -46,7 +46,7 @@ npx velo init
 Now you can start developing in your IDE. 
 
 ## Editor X Revisions
-The repository contains the site's code and a reference to an Editor X revision in the velo.config.json file. Editor X revision represents the state of your site except the code: design, schemas and applications. While designing in Editor X, both Online & Dev, revisions are periodically created. In the Dev Editor you also have a ‘Sync Changes’ button, which creates new revisions and updates it in your local code.
+The repository contains the site's code and a reference to an Editor X revision in the velo.config.json file. Editor X revision represents the state of your site design and schemas. While designing in Editor X, both Online & Dev, revisions are periodically created. In the Dev Editor you also have a ‘Sync Changes’ button, which creates new revisions and updates it in your local code.
 
 ## Dev Editor 
 
@@ -56,7 +56,7 @@ To make editor changes while editing code locally open the Dev Editor by running
 velo dev
   ``` 
 
-Dev Editor runs your local code with the latest Editor X revision from the Online Editor, and allows you to make editor changes while editing code. Note that you will be working in concurrent mode with other users - each editor change that you make will be reflected to all other team members and vice versa.
+Dev Editor runs your local code with the latest Editor X revision from the Online Editor, and allows you to make editor changes while editing code. You will be working in concurrent mode with other users - each editor change that you make will be reflected to all other team members and vice versa. Note that your local code is isolated and available only to you.
 
 After making the needed changes (design/schema/ids) in the Dev Editor, you have to click on the ‘sync changes’ button in the editor top bar, so that your local code will point to an Editor X Revision that contains your latest editor changes.
 ‘sync changes’  creates a new revision and updates your local code files with the newly created revision number, as well as, type files that correspond to the new design.
